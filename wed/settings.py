@@ -109,12 +109,12 @@ SITE_URL = 'https://automatic-space-waffle-v9w5vgqpp4jhpv7p-8000.app.github.dev'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # import urllib.parse
 
@@ -145,12 +145,12 @@ SITE_URL = 'https://automatic-space-waffle-v9w5vgqpp4jhpv7p-8000.app.github.dev'
 
 # RENDER LIVE DATABSE
 
-import dj_database_url
+# import dj_database_url
 
-DATABASES = {
-    'default' : dj_database_url.parse('postgres://wand:zdnUHAGWnQVa34zqOeSAIwR5sGC4znMC@dpg-cn0cu9ed3nmc738aejmg-a.singapore-postgres.render.com/wand')
+# DATABASES = {
+#     'default' : dj_database_url.parse('postgres://wand:zdnUHAGWnQVa34zqOeSAIwR5sGC4znMC@dpg-cn0cu9ed3nmc738aejmg-a.singapore-postgres.render.com/wand')
  
-}
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
